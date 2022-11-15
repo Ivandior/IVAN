@@ -5,7 +5,7 @@ session_start();
 $username="user";
 $password="password";
 if(isset($_SESSION['loggedin'])&& $_SESSION['loggedin']==true){
-header("location:loginsucess.php");
+header("location:loginsuccess.php");
 }
 if(isset($_POST['username'])&& isset($_POST['password'])){
 if($_POST['username']==$username && $_POST['password']==$password){
