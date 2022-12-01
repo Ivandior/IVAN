@@ -19,7 +19,7 @@ echo "username or password incorect";
 ?>
 <html>
 <body>
-<form method="post" action="index.php"><p>
+<form method="post" action="index(2).php"><p>
 <br>Username:<br>
 <input type="text" name="username"><br>
 Password:<br>
